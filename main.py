@@ -99,10 +99,20 @@ if __name__ == "__main__":
     inference_motor = InferenceMotor(knowledge_base, facts, goal)
     RESULT = inference_motor.infer()
 
+    print("\nExplanation:")
+
+    for step in inference_motor.explanation:
+        print(step)
+
+    print("\nInference Result:")
+
     if goal in RESULT:
         print("Goal reached")
+
         print(f"{goal} = {RESULT[goal]}")
     else:
         print("Goal not reached")
+
+    print("\nFinal Facts:")
 
     print(RESULT)
