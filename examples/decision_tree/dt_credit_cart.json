@@ -1,0 +1,45 @@
+{
+  "Garantia": {
+    "Nenhuma": {
+      "Renda": {
+        "Acima de $35k": "Baixo",
+        "$0 a $15k": {
+          "Historia de Crédito": {
+            "Boa": {
+              "Dívida": {
+                "Alta": "Alto",
+                "Baixa": "Baixo"
+              }
+            },
+            "Ruim": "Alto",
+            "Desconhecida": {
+              "Dívida": {
+                "Alta": "Moderado",
+                "Baixa": "Alto"
+              }
+            }
+          }
+        },
+        "$15 a $35k": {
+          "Dívida": {
+            "Alta": {
+              "Historia de Crédito": {
+                "Boa": "Moderado",
+                "Ruim": "Alto",
+                "Desconhecida": "Alto"
+              }
+            },
+            "Baixa": "Moderado"
+          }
+        }
+      }
+    },
+    "Adequada": {
+      "Historia de Crédito": {
+        "Boa": "Baixo",
+        "Ruim": "Moderado",
+        "Desconhecida": "Baixo"
+      }
+    }
+  }
+}

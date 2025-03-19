@@ -1,0 +1,135 @@
+[
+    {
+        "conditions": {
+            "Garantia": "Nenhuma",
+            "Renda": "Acima de $35k"
+        },
+        "consequence": {
+            "Risco": "Baixo"
+        }
+    },
+    {
+        "conditions": {
+            "Garantia": "Nenhuma",
+            "Renda": "$0 a $15k",
+            "Historia de Crédito": "Boa",
+            "Dívida": "Alta"
+        },
+        "consequence": {
+            "Risco": "Alto"
+        }
+    },
+    {
+        "conditions": {
+            "Garantia": "Nenhuma",
+            "Renda": "$0 a $15k",
+            "Historia de Crédito": "Boa",
+            "Dívida": "Baixa"
+        },
+        "consequence": {
+            "Risco": "Baixo"
+        }
+    },
+    {
+        "conditions": {
+            "Garantia": "Nenhuma",
+            "Renda": "$0 a $15k",
+            "Historia de Crédito": "Ruim"
+        },
+        "consequence": {
+            "Risco": "Alto"
+        }
+    },
+    {
+        "conditions": {
+            "Garantia": "Nenhuma",
+            "Renda": "$0 a $15k",
+            "Historia de Crédito": "Desconhecida",
+            "Dívida": "Alta"
+        },
+        "consequence": {
+            "Risco": "Moderado"
+        }
+    },
+    {
+        "conditions": {
+            "Garantia": "Nenhuma",
+            "Renda": "$0 a $15k",
+            "Historia de Crédito": "Desconhecida",
+            "Dívida": "Baixa"
+        },
+        "consequence": {
+            "Risco": "Alto"
+        }
+    },
+    {
+        "conditions": {
+            "Garantia": "Nenhuma",
+            "Renda": "$15 a $35k",
+            "Dívida": "Alta",
+            "Historia de Crédito": "Boa"
+        },
+        "consequence": {
+            "Risco": "Moderado"
+        }
+    },
+    {
+        "conditions": {
+            "Garantia": "Nenhuma",
+            "Renda": "$15 a $35k",
+            "Dívida": "Alta",
+            "Historia de Crédito": "Ruim"
+        },
+        "consequence": {
+            "Risco": "Alto"
+        }
+    },
+    {
+        "conditions": {
+            "Garantia": "Nenhuma",
+            "Renda": "$15 a $35k",
+            "Dívida": "Alta",
+            "Historia de Crédito": "Desconhecida"
+        },
+        "consequence": {
+            "Risco": "Alto"
+        }
+    },
+    {
+        "conditions": {
+            "Garantia": "Nenhuma",
+            "Renda": "$15 a $35k",
+            "Dívida": "Baixa"
+        },
+        "consequence": {
+            "Risco": "Moderado"
+        }
+    },
+    {
+        "conditions": {
+            "Garantia": "Adequada",
+            "Historia de Crédito": "Boa"
+        },
+        "consequence": {
+            "Risco": "Baixo"
+        }
+    },
+    {
+        "conditions": {
+            "Garantia": "Adequada",
+            "Historia de Crédito": "Ruim"
+        },
+        "consequence": {
+            "Risco": "Moderado"
+        }
+    },
+    {
+        "conditions": {
+            "Garantia": "Adequada",
+            "Historia de Crédito": "Desconhecida"
+        },
+        "consequence": {
+            "Risco": "Baixo"
+        }
+    }
+]
