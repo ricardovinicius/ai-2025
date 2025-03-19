@@ -1,0 +1,36 @@
+{
+  "attack_damage": {
+    "65": { "armor": { "33": "Camille", "28": "Fiora", "25": "Draven" } },
+    "70": { "difficulty": { "1": "Garen", "2": "Darius" } },
+    "50": {
+      "armor": {
+        "19": "Amumu",
+        "20": { "class": { "Mage": "Cassiopeia", "Assassin": "Elise" } },
+        "25": "Anivia",
+        "28": "Fiddlesticks",
+        "30": "Bard"
+      }
+    },
+    "53": { "health": { "480": "Ahri", "510": "Brand" } },
+    "55": {
+      "health": {
+        "600": "Braum",
+        "530": "Aurelion Sol",
+        "540": "Evelynn",
+        "570": "Gragas"
+      }
+    },
+    "58": { "armor": { "40": "Alistar", "35": "Galio", "20": "Ekko" } },
+    "60": {
+      "health": {
+        "580": "Diana",
+        "550": "Blitzcrank",
+        "500": { "movement_speed": { "330": "Ezreal", "325": "Ashe" } },
+        "600": { "class": { "Tank": "Cho'Gath", "Assassin": "Akali" } },
+        "570": "Gangplank",
+        "700": "Dr. Mundo"
+      }
+    },
+    "62": "Caitlyn"
+  }
+}

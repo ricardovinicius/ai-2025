@@ -2,7 +2,7 @@ import sys
 import json
 
 
-def extract_rules(tree, path=None, rules=None):
+def extract_rules(tree, consequence_key, path=None, rules=None):
     """
     Recursively traverses the tree and extracts rules for a knowledge base.
 
@@ -22,7 +22,8 @@ def extract_rules(tree, path=None, rules=None):
                 for subkey, subvalue in value.items():
                     new_path = path.copy()
                     new_path[key] = subkey
-                    extract_rules(subvalue, new_path, rules)
+                    extract_rules(
+                        subvalue, consequence_key=consequence_key, path=new_path, rules=rules)
             else:  # Leaf node -> Store the rule
                 rule = {
                     "conditions": path.copy(),
@@ -33,7 +34,7 @@ def extract_rules(tree, path=None, rules=None):
         rule = {
             "conditions": path.copy(),
             "consequence": {
-                "Risco": tree
+                consequence_key: tree
             }
         }
         rules.append(rule)
@@ -52,7 +53,7 @@ if __name__ == "__main__":
     with open(input_file, 'r') as f:
         decision_tree = json.load(f)
 
-    knowledge_base = extract_rules(decision_tree)
+    knowledge_base = extract_rules(decision_tree, consequence_key="Risco")
 
     if output_file:
         with open(output_file, 'w') as f:

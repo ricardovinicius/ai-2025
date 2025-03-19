@@ -1,0 +1,48 @@
+{
+  "Gravidade": {
+    "Alta": {
+      "Histórico de Doenças": {
+        "Neurológico": {
+          "Idade": {
+            "60": "Acidente vascular cerebral (AVC)",
+            "70": "Doença de Alzheimer"
+          }
+        },
+        "Nenhum": {
+          "Idade": {
+            "39": "Embolia pulmonar",
+            "48": "Pneumonia bacteriana",
+            "50": "Câncer de pulmão",
+            "56": "Câncer de mama",
+            "28": "Tuberculose"
+          }
+        },
+        "Cardíaco": "Infarto do miocárdio"
+      }
+    },
+    "Baixa": "Resfriado comum",
+    "Moderada": {
+      "Idade": {
+        "33": "Enxaqueca crônica",
+        "34": "Enxaqueca com aura",
+        "35": "Artrite reumatoide",
+        "38": "Hérnia de disco lombar",
+        "40": "Síndrome do intestino irritável",
+        "45": "Asma controlada",
+        "50": "Doença de Crohn",
+        "55": "Diabetes tipo 2",
+        "22": "Endometriose",
+        "23": "Gastroenterite viral",
+        "25": "Gripe",
+        "27": {
+          "Sintoma Principal": {
+            "Febre": "Dengue",
+            "Erupção cutânea": "Alergia alimentar"
+          }
+        },
+        "29": "Faringite estreptocócica",
+        "63": "Vertigem posicional benigna"
+      }
+    }
+  }
+}

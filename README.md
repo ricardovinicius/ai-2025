@@ -66,7 +66,7 @@ python main.py --tool extract_kb_from_dt <input_file> <output_file>
 python main.py --tool extract_kb_from_dt decision_tree.json knowledge_base.json
 ```
 
-## Exemplo Completo
+## Exemplos para Questão 5
 
 ### Exemplo Gerente
 
@@ -78,12 +78,24 @@ Execute o seguinte comando:
 python main.py -k examples/knowledge_base/credit_cart.json -f examples/knowledge_base/facts_credit_cart.json -g "Risco"
 ```
 
+### Exemplo Médico
+
+Considere que você possui uma base de conhecimento localizada em `examples/knowledge_base/medic_cart.json`, gerada com base nos dados gerados por uma LLM para exemplificação, criada através da árvore de decisão `examples/decision_tree/dt_medic_cart.json` que foi gerada usando o algoritmo CART.
+
+Execute o seguinte comando:
+
+```bash
+python main.py -k examples/knowledge_base/medic_cart.json -g "Diagnóstico"
+
 #### Resultado Esperado:
 
-O sistema analisará as regras da base de conhecimento e os fatos fornecidos. Se o objetivo for alcançado, ele imprimirá algo como:
+O sistema irá solicitar algumas informações do paciente:
 
-```
-Objetivo alcançado: Risco
+> Enter fact (field:value) or press Enter to finish: > Gravidade:Baixa
+
+Resfriado Comum
+
+Objetivo alcançado: Diagnóstico
 Explicação:
 1. Regra aplicada: ...
 2. Novo fato derivado: ...
@@ -91,6 +103,232 @@ Explicação:
 ```
 
 Caso contrário, ele indicará que o objetivo não pôde ser alcançado com os fatos e regras disponíveis.
+
+Você pode usar os seguintes valores para os fatos:
+
+### Atributos e seus valores possíveis:
+
+- **Idade:**
+
+  - 22
+  - 23
+  - 25
+  - 27
+  - 28
+  - 30
+  - 33
+  - 34
+  - 35
+  - 38
+  - 39
+  - 40
+  - 42
+  - 45
+  - 48
+  - 50
+  - 55
+  - 56
+  - 60
+  - 63
+  - 70
+
+- **Sintoma Principal:**
+
+  - Dor de cabeça
+  - Dor no peito
+  - Tosse seca
+  - Cansaço extremo
+  - Dor nas articulações
+  - Dor abdominal
+  - Falta de ar
+  - Tosse persistente
+  - Esquecimento
+  - Dor de garganta
+  - Dor nas costas
+  - Erupção cutânea
+  - Carne no seio
+  - Cefaleia
+  - Febre
+
+- **Sintoma Secundário:**
+
+  - Febre
+  - Falta de ar
+  - Chiado no peito
+  - Perda de peso
+  - Rigidez ao acordar
+  - Inchaço
+  - Tontura
+  - Náusea
+  - Sede excessiva
+  - Confusão mental
+  - Dificuldades para engolir
+  - Dormência nas pernas
+  - Zumbido no ouvido
+  - Coceira
+  - Cólicas fortes
+  - Cólicas intestinais
+  - Carne no seio
+  - Dor no corpo
+
+- **Gravidade:**
+
+  - Baixa
+  - Moderada
+  - Alta
+
+- **Histórico de Doenças:**
+
+  - Nenhum
+  - Cardíaco
+  - Neurológico
+  - Artrite
+  - Asma
+  - Irritação intestinal
+  - Alergia
+  - Hérnia de disco
+  - Doenças inflamatórias intestinais
+  - Câncer de mama
+  - Diabetes tipo 2
+  - Doença de Crohn
+
+- **Diagnóstico:**
+  - Gripe
+  - Infarto do miocárdio
+  - Resfriado comum
+  - Câncer de pulmão
+  - Acidente vascular cerebral (AVC)
+  - Artrite reumatoide
+  - Gastroenterite viral
+  - Asma controlada
+  - Tuberculose
+  - Enxaqueca crônica
+  - Diabetes tipo 2
+  - Doença de Alzheimer
+  - Faringite estreptocócica
+  - Hérnia de disco lombar
+  - Pneumonia bacteriana
+  - Vertigem posicional benigna
+  - Alergia alimentar
+  - Câncer de mama
+  - Síndrome do intestino irritável
+  - Endometriose
+  - Enxaqueca com aura
+  - Embolia pulmonar
+  - Dengue
+
+### Exemplo Mini Akinator
+
+Para esse exemplo foi criado uma base de dados pequena dos personagens do jogo League of Legends.
+
+Considere que você possui uma base de conhecimento localizada em `examples/knowledge_base/lol_cart.json`, gerada com base nos dados do League of Legends, criada através da árvore de decisão `examples/decision_tree/dt_lol_cart.json` que foi gerada usando o algoritmo CART.
+
+Execute o seguinte comando:
+
+```bash
+python main.py -k examples/knowledge_base/lol_cart.json -g "name"
+
+#### Resultado Esperado:
+
+O sistema irá solicitar algumas informações do personagem:
+
+> Enter fact (field:value) or press Enter to finish: > attack_damage:65
+> armor:33
+
+Camille
+
+Objetivo alcançado: name
+Explicação:
+1. Regra aplicada: ...
+2. Novo fato derivado: ...
+...
+```
+
+Caso contrário, ele indicará que o objetivo não pôde ser alcançado com os fatos e regras disponíveis.
+
+Você pode usar os seguintes valores para os fatos:
+
+- **attack_damage:**
+
+  - 65
+  - 70
+  - 50
+  - 53
+  - 55
+  - 58
+  - 60
+  - 62
+
+- **armor:**
+
+  - 33
+  - 28
+  - 25
+  - 19
+  - 20
+  - 40
+  - 35
+
+- **difficulty:**
+
+  - 1
+  - 2
+
+- **health:**
+
+  - 480
+  - 510
+  - 600
+  - 530
+  - 540
+  - 570
+  - 580
+  - 550
+  - 500
+  - 700
+
+- **movement_speed:**
+
+  - 330
+  - 325
+
+- **class:**
+  - Mage
+  - Assassin
+  - Tank
+
+E esse são os possíveis campeões
+
+- **Champion Names:**
+  - Camille
+  - Fiora
+  - Draven
+  - Garen
+  - Darius
+  - Amumu
+  - Cassiopeia
+  - Elise
+  - Anivia
+  - Fiddlesticks
+  - Bard
+  - Ahri
+  - Brand
+  - Braum
+  - Aurelion Sol
+  - Evelynn
+  - Gragas
+  - Alistar
+  - Galio
+  - Ekko
+  - Diana
+  - Blitzcrank
+  - Ezreal
+  - Ashe
+  - Cho'Gath
+  - Akali
+  - Gangplank
+  - Dr. Mundo
+  - Caitlyn
 
 ## Explicação do Código
 

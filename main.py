@@ -32,18 +32,20 @@ if __name__ == "__main__":
         elif tool_name == "extract_kb_from_dt":
             from tools.extract_kb_from_dt import extract_rules
 
-            if len(tool_args) < 1:
+            if len(tool_args) < 3:
                 print(
-                    "Usage: python main.py --tool extract_kb_from_dt <input_file> <output_file>")
+                    "Usage: python main.py --tool extract_kb_from_dt <input_file> <output_file> <goal_name>")
                 sys.exit(1)
 
             input_file = tool_args[0]
-            output_file = tool_args[1] or None
+            output_file = tool_args[1]
+            goal_name = tool_args[2]
 
             with open(input_file, 'r') as f:
                 decision_tree = json.load(f)
 
-            knowledge_base = extract_rules(decision_tree)
+            knowledge_base = extract_rules(
+                decision_tree, consequence_key=goal_name)
 
             with open(output_file, 'w') as f:
                 if output_file is not None:

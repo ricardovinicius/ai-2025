@@ -1,0 +1,226 @@
+[
+    {
+        "conditions": {
+            "Gravidade": "Alta",
+            "Histórico de Doenças": "Neurológico",
+            "Idade": "60"
+        },
+        "consequence": {
+            "Diagnóstico": "Acidente vascular cerebral (AVC)"
+        }
+    },
+    {
+        "conditions": {
+            "Gravidade": "Alta",
+            "Histórico de Doenças": "Neurológico",
+            "Idade": "70"
+        },
+        "consequence": {
+            "Diagnóstico": "Doença de Alzheimer"
+        }
+    },
+    {
+        "conditions": {
+            "Gravidade": "Alta",
+            "Histórico de Doenças": "Nenhum",
+            "Idade": "39"
+        },
+        "consequence": {
+            "Diagnóstico": "Embolia pulmonar"
+        }
+    },
+    {
+        "conditions": {
+            "Gravidade": "Alta",
+            "Histórico de Doenças": "Nenhum",
+            "Idade": "48"
+        },
+        "consequence": {
+            "Diagnóstico": "Pneumonia bacteriana"
+        }
+    },
+    {
+        "conditions": {
+            "Gravidade": "Alta",
+            "Histórico de Doenças": "Nenhum",
+            "Idade": "50"
+        },
+        "consequence": {
+            "Diagnóstico": "Câncer de pulmão"
+        }
+    },
+    {
+        "conditions": {
+            "Gravidade": "Alta",
+            "Histórico de Doenças": "Nenhum",
+            "Idade": "56"
+        },
+        "consequence": {
+            "Diagnóstico": "Câncer de mama"
+        }
+    },
+    {
+        "conditions": {
+            "Gravidade": "Alta",
+            "Histórico de Doenças": "Nenhum",
+            "Idade": "28"
+        },
+        "consequence": {
+            "Diagnóstico": "Tuberculose"
+        }
+    },
+    {
+        "conditions": {
+            "Gravidade": "Alta",
+            "Histórico de Doenças": "Cardíaco"
+        },
+        "consequence": {
+            "Diagnóstico": "Infarto do miocárdio"
+        }
+    },
+    {
+        "conditions": {
+            "Gravidade": "Baixa"
+        },
+        "consequence": {
+            "Diagnóstico": "Resfriado comum"
+        }
+    },
+    {
+        "conditions": {
+            "Gravidade": "Moderada",
+            "Idade": "33"
+        },
+        "consequence": {
+            "Diagnóstico": "Enxaqueca crônica"
+        }
+    },
+    {
+        "conditions": {
+            "Gravidade": "Moderada",
+            "Idade": "34"
+        },
+        "consequence": {
+            "Diagnóstico": "Enxaqueca com aura"
+        }
+    },
+    {
+        "conditions": {
+            "Gravidade": "Moderada",
+            "Idade": "35"
+        },
+        "consequence": {
+            "Diagnóstico": "Artrite reumatoide"
+        }
+    },
+    {
+        "conditions": {
+            "Gravidade": "Moderada",
+            "Idade": "38"
+        },
+        "consequence": {
+            "Diagnóstico": "Hérnia de disco lombar"
+        }
+    },
+    {
+        "conditions": {
+            "Gravidade": "Moderada",
+            "Idade": "40"
+        },
+        "consequence": {
+            "Diagnóstico": "Síndrome do intestino irritável"
+        }
+    },
+    {
+        "conditions": {
+            "Gravidade": "Moderada",
+            "Idade": "45"
+        },
+        "consequence": {
+            "Diagnóstico": "Asma controlada"
+        }
+    },
+    {
+        "conditions": {
+            "Gravidade": "Moderada",
+            "Idade": "50"
+        },
+        "consequence": {
+            "Diagnóstico": "Doença de Crohn"
+        }
+    },
+    {
+        "conditions": {
+            "Gravidade": "Moderada",
+            "Idade": "55"
+        },
+        "consequence": {
+            "Diagnóstico": "Diabetes tipo 2"
+        }
+    },
+    {
+        "conditions": {
+            "Gravidade": "Moderada",
+            "Idade": "22"
+        },
+        "consequence": {
+            "Diagnóstico": "Endometriose"
+        }
+    },
+    {
+        "conditions": {
+            "Gravidade": "Moderada",
+            "Idade": "23"
+        },
+        "consequence": {
+            "Diagnóstico": "Gastroenterite viral"
+        }
+    },
+    {
+        "conditions": {
+            "Gravidade": "Moderada",
+            "Idade": "25"
+        },
+        "consequence": {
+            "Diagnóstico": "Gripe"
+        }
+    },
+    {
+        "conditions": {
+            "Gravidade": "Moderada",
+            "Idade": "27",
+            "Sintoma Principal": "Febre"
+        },
+        "consequence": {
+            "Diagnóstico": "Dengue"
+        }
+    },
+    {
+        "conditions": {
+            "Gravidade": "Moderada",
+            "Idade": "27",
+            "Sintoma Principal": "Erupção cutânea"
+        },
+        "consequence": {
+            "Diagnóstico": "Alergia alimentar"
+        }
+    },
+    {
+        "conditions": {
+            "Gravidade": "Moderada",
+            "Idade": "29"
+        },
+        "consequence": {
+            "Diagnóstico": "Faringite estreptocócica"
+        }
+    },
+    {
+        "conditions": {
+            "Gravidade": "Moderada",
+            "Idade": "63"
+        },
+        "consequence": {
+            "Diagnóstico": "Vertigem posicional benigna"
+        }
+    }
+]
