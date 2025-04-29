@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='utf-8'?>
+<smile version="1.0" id="Network1" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="Gender">
+			<state id="Female" />
+			<state id="Male" />
+			<probabilities>0.529 0.471</probabilities>
+		</cpt>
+		<cpt id="Blood_Pressure">
+			<state id="Low" />
+			<state id="Normal" />
+			<state id="High" />
+			<probabilities>0.078 0.608 0.314</probabilities>
+		</cpt>
+		<cpt id="Cholesterol_Level">
+			<state id="Normal" />
+			<state id="Low" />
+			<state id="High" />
+			<probabilities>0.647 0.078 0.275</probabilities>
+		</cpt>
+		<cpt id="Disease">
+			<state id="Influenza" />
+			<state id="Negative" />
+			<state id="Asthma" />
+			<state id="Common Cold" />
+			<state id="Pneumonia" />
+			<state id="Allergic Rhinitis" />
+			<parents>Gender Blood_Pressure Cholesterol_Level</parents>
+			<probabilities>0.333 0.667 0.000 0.000 0.000 0.000 0.167 0.167 0.167 0.167 0.167 0.167 0.167 0.167 0.167 0.167 0.167 0.167 0.250 0.333 0.417 0.000 0.000 0.000 0.000 1.000 0.000 0.000 0.000 0.000 0.000 0.500 0.250 0.000 0.250 0.000 0.000 0.500 0.000 0.000 0.500 0.000 0.167 0.167 0.167 0.167 0.167 0.167 0.000 0.500 0.500 0.000 0.000 0.000 0.000 0.000 1.000 0.000 0.000 0.000 0.167 0.167 0.167 0.167 0.167 0.167 0.167 0.167 0.167 0.167 0.167 0.167 0.000 0.125 0.750 0.000 0.125 0.000 0.000 1.000 0.000 0.000 0.000 0.000 0.000 0.333 0.667 0.000 0.000 0.000 0.200 0.400 0.200 0.000 0.000 0.200 0.167 0.167 0.167 0.167 0.167 0.167 0.200 0.200 0.200 0.200 0.200 0.000</probabilities>
+		</cpt>
+		<cpt id="Fever">
+			<state id="Yes" />
+			<state id="No" />
+			<parents>Disease</parents>
+			<probabilities>1.000 0.000 0.400 0.600 0.944 0.056 1.000 0.000 0.800 0.200 1.000 0.000</probabilities>
+		</cpt>
+		<cpt id="Cough">
+			<state id="No" />
+			<state id="Yes" />
+			<parents>Disease</parents>
+			<probabilities>0.167 0.833 0.300 0.700 0.278 0.722 1.000 0.000 0.200 0.800 0.000 1.000</probabilities>
+		</cpt>
+		<cpt id="Fatigue">
+			<state id="Yes" />
+			<state id="No" />
+			<parents>Disease</parents>
+			<probabilities>1.000 0.000 0.600 0.400 0.389 0.611 1.000 0.000 1.000 0.000 1.000 0.000</probabilities>
+		</cpt>
+		<cpt id="Difficulty_Breathing">
+			<state id="Yes" />
+			<state id="No" />
+			<parents>Disease</parents>
+			<probabilities>0.833 0.167 0.450 0.550 0.944 0.056 1.000 0.000 1.000 0.000 0.000 1.000</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 5.0.4830.0 ACADEMIC" name="Network1">
+			<node id="Gender">
+				<name>Gender</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>100 100 200 160</position>
+			</node>
+			<node id="Blood_Pressure">
+				<name>Blood Pressure</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>250 100 350 160</position>
+			</node>
+			<node id="Cholesterol_Level">
+				<name>Cholesterol Level</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>400 100 500 160</position>
+			</node>
+			<node id="Disease">
+				<name>Disease</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>550 100 650 160</position>
+			</node>
+			<node id="Fever">
+				<name>Fever</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>700 100 800 160</position>
+			</node>
+			<node id="Cough">
+				<name>Cough</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>100 200 200 260</position>
+			</node>
+			<node id="Fatigue">
+				<name>Fatigue</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>250 200 350 260</position>
+			</node>
+			<node id="Difficulty_Breathing">
+				<name>Difficulty Breathing</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>400 200 500 260</position>
+			</node>
+		</genie>
+	</extensions>
+</smile>
