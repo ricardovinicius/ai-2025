@@ -1,0 +1,39 @@
+ID,Disease,Fever,Cough,Fatigue,Difficulty Breathing,Age,Gender,Blood Pressure,Cholesterol Level
+0,Influenza,Yes,No,Yes,Yes,19,Female,Low,Normal
+1,Asthma,Yes,Yes,No,Yes,25,Male,Normal,Normal
+2,Asthma,Yes,Yes,No,Yes,25,Male,Normal,Normal
+3,Influenza,Yes,Yes,Yes,Yes,25,Female,Normal,Normal
+4,Influenza,Yes,Yes,Yes,Yes,25,Female,Normal,Normal
+5,Asthma,Yes,No,No,Yes,28,Male,High,Normal
+6,Asthma,Yes,Yes,No,Yes,30,Female,Normal,Normal
+7,Asthma,Yes,Yes,No,Yes,30,Female,Normal,Normal
+8,Asthma,Yes,Yes,Yes,Yes,30,Female,Normal,Normal
+9,Bronchitis,Yes,Yes,No,Yes,30,Female,Low,Normal
+10,Bronchitis,Yes,Yes,Yes,Yes,30,Male,High,High
+11,Bronchitis,Yes,Yes,Yes,Yes,30,Male,High,High
+12,Influenza,Yes,Yes,Yes,No,30,Male,High,Normal
+13,Influenza,Yes,Yes,Yes,Yes,30,Female,Normal,Normal
+14,Common Cold,Yes,No,Yes,Yes,31,Male,High,High
+15,Pneumonia,Yes,No,Yes,Yes,32,Female,High,Normal
+16,Asthma,Yes,Yes,No,Yes,35,Male,Normal,Normal
+17,Asthma,Yes,Yes,No,Yes,35,Male,Normal,Normal
+18,Pneumonia,Yes,Yes,Yes,Yes,38,Male,Normal,Normal
+19,Asthma,Yes,No,Yes,No,40,Male,Low,Normal
+20,Asthma,Yes,Yes,No,Yes,40,Female,Normal,Normal
+21,Asthma,Yes,Yes,No,Yes,40,Female,Normal,Normal
+22,Asthma,No,No,Yes,Yes,40,Male,High,High
+23,Asthma,Yes,No,Yes,Yes,40,Male,Normal,High
+24,Asthma,Yes,No,Yes,Yes,40,Male,Normal,High
+25,Pneumonia,Yes,Yes,Yes,Yes,40,Female,Normal,High
+26,Pneumonia,No,Yes,Yes,Yes,43,Female,High,Normal
+27,Allergic Rhinitis,Yes,Yes,Yes,No,45,Male,High,Normal
+28,Asthma,Yes,Yes,No,Yes,45,Male,Normal,Normal
+29,Asthma,Yes,Yes,No,Yes,45,Male,Normal,Normal
+30,Pneumonia,Yes,Yes,Yes,Yes,45,Male,High,High
+31,Asthma,Yes,Yes,Yes,Yes,50,Female,Normal,High
+32,Bronchitis,Yes,Yes,Yes,Yes,50,Male,High,High
+33,Influenza,Yes,Yes,Yes,Yes,56,Male,High,High
+34,Asthma,Yes,Yes,Yes,Yes,60,Female,High,High
+35,Bronchitis,Yes,No,Yes,Yes,65,Male,High,High
+36,Lung Cancer,Yes,Yes,Yes,No,65,Female,High,High
+37,Lung Cancer,Yes,No,Yes,No,65,Female,Normal,High
